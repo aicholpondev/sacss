@@ -1,0 +1,59 @@
+$bgH1:white;
+$bg:#3A68B8;
+$title:30px;
+
+@mixin df{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@mixin btn{
+  background: #3A68B8;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 15px;
+  border-radius: 10px;
+  color:$bgH1;
+}
+
+#header{
+  background: #040c1a;
+  padding: 25px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  .header{
+   @include df();
+
+    &__logo{
+      display: flex;
+      align-items: center;
+
+      h1{
+        color: #3A68B8;
+        font-size: 23px;
+        font-weight: 600;
+        padding-left: 20px;
+      }
+    }
+
+    &__nav{
+      a{
+        font-size: 16px;
+        font-weight: 600;
+        color: $bgH1;
+        padding: 0 10px;
+
+        &:hover{
+          color: aqua;
+          text-decoration-line: underline;
+      }
+
+      }
+    }
+    button{
+      @include btn();
+    }
+  }
+}

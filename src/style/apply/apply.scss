@@ -1,0 +1,51 @@
+$bg:white;
+$bgTwo: #3A68B8;
+
+@mixin df{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin btn{
+  background: $bgTwo;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 15px 25px;
+  color: $bg;
+  border-radius: 10px;
+  border: 2px solid $bgTwo;
+
+
+  &:hover{
+    background: transparent;
+    border: 2px solid $bg;
+  }
+}
+
+#apply{
+  background: #020a18;
+  padding: 60px 0;
+
+  .apply{
+    &__global{
+      @include df();
+     &__text{
+       h1{
+         font-size: 40px;
+         font-weight: 700;
+         color: $bg;
+       }
+       p{
+         font-size: 16px;
+         font-weight: 600;
+         color: $bg;
+
+       }
+       button{
+         @include btn
+       }
+     }
+    }
+  }
+}

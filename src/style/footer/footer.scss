@@ -1,0 +1,38 @@
+$bg:white;
+$bgTwo: #3A68B8;
+
+@mixin df{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#footer{
+  padding: 50px 0;
+
+  .footer{
+    &__general{
+      @include df();
+      &__one{
+        h3{
+          font-size: 18px;
+          font-weight: 600;
+          color: $bgTwo;
+        }
+        p{
+          font-size: 14px;
+          font-weight: 450;
+          color: $bg;
+
+        }
+        a{
+          color: $bg;
+          font-size: 14px;
+          font-weight: 500;
+
+
+
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+//global code
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+  transition: .4s;
+}
+button{
+  border: none;
+  transition: .4s;
+  cursor: pointer;
+}
+body{
+  font-family: "Open Sans", sans-serif;
+
+}
+//global code
+
+
+
+
+//import fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+//import fonts
+
+
+//import components
+@import "src/style/header/header";
+@import "src/style/heroHome/heroHome";
+@import "src/style/apply/apply";
+@import "src/style/block/block";
+@import "src/style/what/what";
+@import "src/style/footer/footer";
+//import components

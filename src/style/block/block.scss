@@ -1,0 +1,41 @@
+$bg:white;
+$bgTwo: #3A68B8;
+
+@mixin df{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#block{
+  background: #020a18;
+  padding: 70px 0;
+  .block{
+    &__general{
+      @include df();
+      &__one{
+        width: 412px;
+        height: 478px;
+        border-radius: 8px;
+        background: #101724;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        h1{
+          color: $bg;
+          font-size: 25px;
+          font-weight: 700;
+          text-align: center;
+
+        }
+        p{
+          color: $bg;
+          font-size: 16px;
+          font-weight: 600;
+          text-align: center;
+
+        }
+      }
+    }
+  }
+}
