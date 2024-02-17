@@ -12,7 +12,7 @@ $bgTwo: #3A68B8;
   .block{
     &__general{
       @include df();
-      &__one{
+      &--one{
         width: 412px;
         height: 478px;
         border-radius: 8px;
@@ -22,6 +22,7 @@ $bgTwo: #3A68B8;
         align-items: center;
         justify-content: space-around;
         h1{
+          width: 344px;
           color: $bg;
           font-size: 25px;
           font-weight: 700;
@@ -29,6 +30,7 @@ $bgTwo: #3A68B8;
 
         }
         p{
+          width: 344px;
           color: $bg;
           font-size: 16px;
           font-weight: 600;

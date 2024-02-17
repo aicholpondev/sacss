@@ -30,13 +30,16 @@ $bgTwo: #3A68B8;
   .apply{
     &__global{
       @include df();
-     &__text{
+     &--text{
        h1{
+         width: 526px;
          font-size: 40px;
          font-weight: 700;
          color: $bg;
        }
        p{
+         width: 520px ;
+         padding: 30px 0;
          font-size: 16px;
          font-weight: 600;
          color: $bg;

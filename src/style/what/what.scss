@@ -12,14 +12,16 @@ $bgTwo: #3A68B8;
   .what{
     &__general{
       @include df();
-      &__text{
+      &--text{
         h1{
+          width: 546px;
           font-size: 40px;
           font-weight: 700;
          color: $bg;
 
         }
         p{
+          padding: 20px 0;
           width: 458px;
           font-size: 16px;
           font-weight: 600;

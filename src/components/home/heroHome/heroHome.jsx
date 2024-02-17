@@ -13,7 +13,7 @@ const HeroHome = () => {
                     <div className="hero">
                         <div className="hero__block">
 
-                            <div className="hero__block-text">
+                            <div className="hero__block--text">
                                 <h3>Next genaretion platform</h3>
                                 <h1>Artificial intelligence & Syber security</h1>
                                 <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>

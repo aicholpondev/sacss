@@ -7,7 +7,7 @@ const Apply = () => {
                 <div className="apply">
                     <div className="apply__global">
                         <img src={apply} alt="img"/>
-                        <div className="apply__text">
+                        <div className="apply__global--text">
                             <h1>Apply AI, Deep Learning and Data Sciece to solve</h1>
                             <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
                             <button>Learn More</button>

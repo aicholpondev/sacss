@@ -1,35 +1,90 @@
-$bg:white;
+$bg: white;
 $bgTwo: #3A68B8;
 
 @mixin df{
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items:center;
+}
+@mixin column{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: start;
 }
 #footer{
+  background: #020a18;
   padding: 50px 0;
 
   .footer{
     &__general{
       @include df();
-      &__one{
+      &--one{
         h3{
           font-size: 18px;
           font-weight: 600;
           color: $bgTwo;
         }
         p{
+          width: 260px;
+          padding: 10px 0 20px 0;
           font-size: 14px;
           font-weight: 450;
-          color: $bg;
+          color: #8a8d94;
 
         }
         a{
+          padding: 15px 0;
           color: $bg;
           font-size: 14px;
           font-weight: 500;
 
 
+
+        }
+      }
+      &--two{
+
+        h1{
+          color: $bg;
+          font-size: 16px;
+          font-weight: 500;
+        }
+        a{
+          width: 164px;
+          color: #8a8d94;
+          font-size: 14px;
+          font-weight: 450;
+          padding: 10px 0;
+          display: flex;
+          flex-direction: column;
+
+
+        }
+      }
+      &--three{
+        h1{
+          color: $bg;
+          font-size: 16px;
+          font-weight: 500;
+        }
+        p{
+          width: 260px;
+          padding: 15px 0 25px 0;
+          font-size: 14px;
+          font-weight: 450;
+          color: #8a8d94;
+        }
+        h2{
+          color: $bg;
+          font-size: 16px;
+          font-weight: 500;
+          padding: 20px 0 15px 0;
+        }
+        a{
+          font-size: 30px;
+          padding: 0 10px;
+          color: #8a8d94;
 
         }
       }
