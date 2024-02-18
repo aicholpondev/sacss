@@ -24,11 +24,9 @@ const Footer = () => {
                             <h3>Artificial Intelligence</h3>
                             <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and layouts and visual mockups.</p>
 
-                            <a href="#"><MdOutlineEmail />Company@gmail.com.com</a>
-                           <br/>
-                            <br/><a href="#"><FiPhoneCall />Phone: (064) 332-1233</a>
-                           <br/>
-                            <br/><a href="#"><CiLocationOn />450 Wall Street, USA, New York</a>
+                            <a href="#"><span><MdOutlineEmail /></span>Company@gmail.com.com</a>
+                          <a href="#"><span><FiPhoneCall /></span>Phone: (064) 332-1233</a>
+                           <a href="#"><span><CiLocationOn /></span>450 Wall Street, USA, New York</a>
                         </div>
                         <div className="footer__general--two">
                             <h1>INFORMATION</h1>

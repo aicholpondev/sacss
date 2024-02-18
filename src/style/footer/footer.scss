@@ -4,7 +4,7 @@ $bgTwo: #3A68B8;
 @mixin df{
   display: flex;
   justify-content: space-between;
-  align-items:center;
+  align-items:start;
 }
 @mixin column{
   display: flex;
@@ -38,10 +38,14 @@ $bgTwo: #3A68B8;
           color: $bg;
           font-size: 14px;
           font-weight: 500;
-
-
-
+          display: flex;
+          align-items: center;
+          span{
+            font-size: 20px;
+            padding-right: 10px;
+          }
         }
+
       }
       &--two{
 
@@ -83,7 +87,7 @@ $bgTwo: #3A68B8;
         }
         a{
           font-size: 30px;
-          padding: 0 10px;
+          padding-right: 20px;
           color: #8a8d94;
 
         }
